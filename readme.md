@@ -23,3 +23,7 @@ O BuscaCEP é uma aplicação de código aberto licenciada sob a licença MIT. S
 ## Créditos
 
 O BuscaCEP utiliza a API gratuita do ViaCEP para obter informações de CEPs. Agradecemos ao ViaCEP por disponibilizar esta ferramenta de forma gratuita e acessível.
+
+## Autor
+
+Desenvolvido por João Victor - [Vitinho163](https://github.com/Vitinho163)
