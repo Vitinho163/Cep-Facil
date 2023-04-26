@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-br" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>CEP Fácil</title>
+    <style>
+        .toggle-container {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        }
+
+        footer p {
+        margin: 32px;
+        text-align: center;
+        color: #a1a1aa;
+        font-weight: lighter;
+        }
+
+        footer p strong {
+        color: red;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="toggle-container">
+        <div class="float-right mt-2 mr-2">
+          <div>
+            <label for="toggle-dark-mode">
+              <input type="checkbox" id="toggle-dark-mode" class="toggle" role="switch" />
+            </label>
+          </div>
+       </div>
+    </div>
+    <main class="container">
+        <div class="container mx-auto">
+            <div class="card">
+              <div class="card-body">
+                <h2>Informações do endereço</h2>
+                <p>CEP: <span id="cep"></span></p>
+                <p>Logradouro: <span id="logradouro"></span></p>
+                <p>Complemento: <span id="complemento"></span></p>
+                <p>Bairro: <span id="bairro"></span></p>
+                <p>Localidade: <span id="localidade"></span></p>
+                <p>UF: <span id="uf"></span></p>
+                <div class="form-group">
+                  <label for="cep-input">Insira seu CEP:</label>
+                  <input type="text" id="cep-input" class="form-input" />
+                  <button id="buscar" class="btn">Buscar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p>Feito com <strong>♥</strong> por João Victor</p>
+        </footer>
+    </main>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
