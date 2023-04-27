@@ -1,6 +1,6 @@
 # Cep-Facil
 
-CepFacil é uma aplicação web simples e fácil de usar para buscar informações de CEPs de forma rápida e prática. Desenvolvido com as tecnologias HTML, CSS e Pico.css, o BuscaCEP é uma solução ideal para quem precisa obter informações precisas sobre CEPs em poucos cliques.
+CepFacil é uma aplicação web simples e fácil de usar para buscar informações de CEPs de forma rápida e prática. Desenvolvido com as tecnologias HTML, CSS e Pico.css, o CepFacil é uma solução ideal para quem precisa obter informações precisas sobre CEPs em poucos cliques.
 
 ![Screenshot do BuscaCEP](https://i.imgur.com/LaDFcTK.png)
 
