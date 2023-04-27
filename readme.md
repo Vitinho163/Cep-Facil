@@ -10,7 +10,7 @@ Para utilizar o CepFacil, basta acessar o site e inserir o CEP desejado no campo
 
 ## Tecnologias utilizadas
 
-O BuscaCEP foi desenvolvido utilizando as seguintes tecnologias:
+O CepFacil foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML
 - CSS
